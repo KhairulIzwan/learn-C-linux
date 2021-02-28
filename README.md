@@ -209,6 +209,7 @@ if (test expression)
    // statements to be executed if the test expression is true
 }
 ```
+
 #### C if...else Statement
 
 ```c
@@ -240,7 +241,112 @@ else {
 ```
 
 #### Nested if...else
+
 It is possible to include an if...else statement inside the body of another if...else statement.
+
+### C Loops
+
+#### C for Loop
+
+```c
+for (initializationStatement; testExpression; updateStatement)
+{
+    // statements inside the body of loop
+}
+```
+
+#### C while and do...while Loop
+
+##### C while Loop
+
+```c
+while (testExpression) 
+{
+    // statements inside the body of the loop 
+}
+```
+
+##### C do...while Loop
+
+```c
+do
+{
+   // statements inside the body of the loop
+}
+while (testExpression);
+```
+
+### C break and continue
+
+#### C break
+
+**break** statement ends the loop immediately when it is encountered
+
+#### C continue
+
+**continue** statement skips the current iteration of the loop and continues with the next iteration.
+
+### C switch Statement
+
+```c
+switch (expression)
+​{
+    case constant1:
+      // statements
+      break;
+
+    case constant2:
+      // statements
+      break;
+    .
+    .
+    .
+    default:
+      // default statements
+}
+```
+
+### C goto Statement
+
+```c
+goto label;
+... .. ...
+... .. ...
+label: 
+statement;
+```
+
+## C Functions
+
+### Standard library functions
+
+- functions are built-in functions in C programming
+- defined in header files
+
+### User-defined function
+
+- functions created by the user
+
+```c
+#include <stdio.h>
+void functionName()
+{
+    ... .. ...
+    ... .. ...
+}
+
+int main()
+{
+    ... .. ...
+    ... .. ...
+
+    functionName();
+    
+    ... .. ...
+    ... .. ...
+}
+```
+
 
 ## Reference
 
