@@ -1,8 +1,7 @@
 #include <stdio.h>    
 int main()
 {
-    
-    // C Output
+    // Displays the string inside quotations
     printf("C Programming\n");
 
     return 0;

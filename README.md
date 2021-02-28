@@ -1,6 +1,8 @@
 # learn-C-linux
 
-## Keywords and Identifiers
+## C Introduction
+
+### Keywords and Identifiers
 
 Character Set | Sample
 ------------ | -------------
@@ -10,7 +12,7 @@ Digits | **0, 1, 2, 3, 4, 5, 6, 7, 8, 9**
 Special Characters | **, < > . _ ( ) ; $ : %[ ] # ? ' & { } " ^ ! * / | - \ ~ +**
 White space Characters | **Blank space, newline, horizontal tab, carriage return and form feed**
 
-### C-Keywords
+#### C-Keywords
 
 C-Keywords (reserved) |
 ------------ |
@@ -47,9 +49,9 @@ C-Keywords (reserved) |
 **short**
 **unsigned**
 
-## C Variables, Constants and Literals
+### C Variables, Constants and Literals
 
-### Variables
+#### Variables
 
 - variable is a container (storage area) to hold data
 - variable should be given a unique name (identifier)
@@ -59,7 +61,7 @@ C-Keywords (reserved) |
 - playerScore -- variable names; identifier
 - 95 -- values; in this case integer 95
 
-### Literals
+#### Literals
 
 - **integers**:
   - **decimal** (base 10): 0, -9, 22 etc
@@ -90,11 +92,11 @@ C-Keywords (reserved) |
     - "x" //string constant having a single character.
     - "Earth is round\n" //prints string with a newline
 
-### Constants
+#### Constants
 
 - define a variable whose value cannot be changed -- use the **const** keyword
 
-## C Data Types
+### C Data Types
 
 Type | Size (bytes) | Format Specifier | Details
 ------------ | ------------- | ------------- | -------------
@@ -119,17 +121,18 @@ Type | Size (bytes) | Format Specifier | Details
 **void** | - | - | incomplete type. It means "nothing" or "no type"
 **sizeof** | - | - | check the size of a variable
 
-### Derived Data Types
+#### Derived Data Types
+
 Data types that are derived from fundamental data types are derived types
 
-## C Input Output (I/O)
+### C Input Output (I/O)
 
 - C Output: **printf()**
 - C Input: **scanf()**
 
-## C Programming Operators
+### C Programming Operators
 
-### C Arithmetic Operators
+#### C Arithmetic Operators
 
 Operator | Meaning of Operator
 ------------ | -------------
@@ -139,10 +142,11 @@ Operator | Meaning of Operator
 "/" | division
 "%" | remainder after division (modulo division)
 
-### C Increment and Decrement Operators
+#### C Increment and Decrement Operators
+
 has two operators increment **++** and decrement **--** to change the value of an operand (constant or variable) by 1
 
-### C Assignment Operators
+#### C Assignment Operators
 
 Operator | Example | Same as
 ------------ | ------------- | -------------
@@ -153,7 +157,7 @@ Operator | Example | Same as
 /= | a /= b | a = a/b
 %= | a %= b | a = a%b
 
-### C Relational Operators
+#### C Relational Operators
 
 Operator | Meaning of Operator | Example
 ------------ | ------------- | -------------
@@ -164,7 +168,34 @@ Operator | Meaning of Operator | Example
 **>=** | Greater than or equal to | 5 >= 3 is evaluated to 1
 **<=** | Less than or equal to | 5 <= 3 is evaluated to 0
 
+#### C Logical Operators
 
+Operator | Meaning of Operator | Example
+------------ | ------------- | -------------
+&& | Logical AND. | True only if all operands are true. If c = 5 and d = 2 then, expression ((c==5) && (d>5)) equals to 0.
+\|\| | Logical OR. | True only if either one operand is true. If c = 5 and d = 2 then, expression ((c==5) || (d>5)) equals to 1.
+! | Logical NOT. | True only if the operand is 0. If c = 5 then, expression !(c==5) equals to 0.
+
+#### C Bitwise Operators
+
+Operator | Meaning of Operator
+------------ | -------------
+& | Bitwise AND
+\| | Bitwise OR
+^ | Bitwise exclusive OR
+~ | Bitwise complement
+<< | Shift left
+\>> | Shift right
+
+#### Other Operators
+
+- Comma Operator:
+  - Comma operators are used to link related expressions together
+  - int a, c = 5, d;
+
+- The sizeof operator:
+  - unary operator that returns the size of data
+  - sizeof
 
 ## Reference
 
