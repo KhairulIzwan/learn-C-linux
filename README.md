@@ -197,6 +197,51 @@ Operator | Meaning of Operator
   - unary operator that returns the size of data
   - sizeof
 
+## C Flow Control
+
+### C if...else Statement
+
+#### C if Statement
+
+```c
+if (test expression) 
+{
+   // statements to be executed if the test expression is true
+}
+```
+#### C if...else Statement
+
+```c
+if (test expression) {
+    // statements to be executed if the test expression is true
+}
+else {
+    // statements to be executed if the test expression is false
+}
+```
+
+#### C if...else Ladder
+
+```c
+if (test expression1) {
+   // statement(s)
+}
+else if(test expression2) {
+   // statement(s)
+}
+else if (test expression3) {
+   // statement(s)
+}
+.
+.
+else {
+   // statement(s)
+}
+```
+
+#### Nested if...else
+It is possible to include an if...else statement inside the body of another if...else statement.
+
 ## Reference
 
 1. [Learn C Programming](https://www.programiz.com/c-programming/)
